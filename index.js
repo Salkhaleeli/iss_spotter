@@ -1,10 +1,4 @@
-//const { fetchMyIP } = require('./iss');
-//const { fetchCoordsByIP } = require('./iss');
-//const { fetchISSFlyOverTimes } = require('./iss');
 const { nextISSTimesForMyLocation } = require('./iss');
-
-
-
 
 const printPassTimes = function(passTimes) {
   for (const pass of passTimes) {
